@@ -8,6 +8,6 @@ export class HelloCdkStack extends cdk.Stack {
 
     // The code that defines your stack goes here
     // new widgetService.WidgetService(this, 'Widgets');
-    new RdsService(scope, 'RDS instance');
+    new RdsService(this, 'RDS instance');
   }
 }

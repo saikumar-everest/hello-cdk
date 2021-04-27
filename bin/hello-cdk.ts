@@ -5,3 +5,4 @@ import { HelloCdkStack } from '../lib/hello-cdk-stack';
 
 const app = new cdk.App();
 new HelloCdkStack(app, 'HelloCdkStack');
+app.synth();
